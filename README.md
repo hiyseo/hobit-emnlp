@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/hobit-emnlp/hobit-emnlp"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-hobit--emnlp-black"></a>
-  <a href="https://github.com/hobit-emnlp/hobit-emnlp/archive/refs/heads/main.zip"><img alt="download package" src="https://img.shields.io/badge/Download-installable_package-750E21"></a>
+  <a href="https://github.com/hiyseo/hobit-emnlp"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-hobit--emnlp-black"></a>
+  <a href="https://github.com/hiyseo/hobit-emnlp/archive/refs/heads/main.zip"><img alt="download package" src="https://img.shields.io/badge/Download-installable_package-750E21"></a>
   <img alt="FastAPI" src="https://img.shields.io/badge/backend-FastAPI-009688">
   <img alt="React" src="https://img.shields.io/badge/frontend-React-61DAFB">
   <img alt="Qdrant" src="https://img.shields.io/badge/vector_db-Qdrant-DC244C">
@@ -19,8 +19,8 @@ Informatics) with **proFILL** — a profile-aware RAG methodology. Each answer i
 conditioned on the student's structured profile (department, admission year, major
 type, grade, status), so questions like "please tell me my required major courses" resolve to the correct year-specific curriculum table rather than a generic response.
 
-- **Live install package**: <https://github.com/hobit-emnlp/hobit-emnlp/archive/refs/heads/main.zip>
-- **Project page**: <https://hobit-emnlp.github.io/>
+- **Live install package**: <https://github.com/hiyseo/hobit-emnlp/archive/refs/heads/main.zip>
+- **Project page**: <https://idealab-ku.github.io/hobit-emnlp/>
 - **Local demo after install**: <http://localhost:3000>
 - **Backend health check**: <http://localhost:8000/health>
 
@@ -113,7 +113,7 @@ Requirements:
 - Docker Compose v2
 
 ```bash
-git clone https://github.com/hobit-emnlp/hobit-emnlp.git
+git clone https://github.com/hiyseo/hobit-emnlp.git
 cd hobit-emnlp
 docker compose up --build
 ```
